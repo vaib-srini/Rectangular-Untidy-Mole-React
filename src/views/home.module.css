@@ -36,6 +36,7 @@
   align-items: flex-start;
   margin-left: 0px;
   margin-right: 0px;
+  margin-bottom: 5%;
   flex-direction: column;
   justify-content: center;
   list-style-type: disc;
@@ -181,10 +182,14 @@
   .container2 {
     width: 100%;
     max-width: 100%;
-    margin-bottom: var(--dl-space-space-threeunits);
+    margin-top: 0px;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 5%;
   }
   .text {
     font-size: 3.5rem;
+    align-self: flex-start;
     text-align: left;
     padding-left: var(--dl-space-space-unit);
   }
